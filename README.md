@@ -36,7 +36,7 @@ Consejo Asesor : Decana Ing. Liliana Aragon
 - Grace Kelly Guevara Diaz         (<20140052@lamolina.edu.pe>)
 + Charlie Mendez Morales           (<20140072@lamolina.edu.pe>)
 
-*  ### Consejo Asesor
+* ### Consejo Asesor
 
 - Decana Ing. Liliana Aragon
 + Dr. Raul Blas 	
