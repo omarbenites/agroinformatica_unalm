@@ -24,19 +24,19 @@ Consejo Asesor : Decana Ing. Liliana Aragon
                : Dr. Raul Blas 	
 
 
-* ###Coordinarores	
+* ### Coordinarores	
 
 - Omar Eduardo Benites Alfaro   (Coordinador e instructor del proyecto)
 + Pedro Pablo Gutierrez Vilchez (Coordinador e instructor del proyecto)
 
-* ###Estudiantes	
+* ### Estudiantes	
 
 - Jossyn Arleth Lockuan Cotrina    (<20120056@lamolina.edu.pe>)
 - Giorgio Agustín Cruz Fajardo     (<20120024@lamolina.edu.pe>)
 - Grace Kelly Guevara Diaz         (<20140052@lamolina.edu.pe>)
 + Charlie Mendez Morales           (<20140072@lamolina.edu.pe>)
 
-*  ###Consejo Asesor
+*  ### Consejo Asesor
 
 - Decana Ing. Liliana Aragon
 + Dr. Raul Blas 	
