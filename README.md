@@ -24,7 +24,7 @@ Consejo Asesor : Decana Ing. Liliana Aragon
                : Dr. Raul Blas 	
 
 
-* Coordinarores
+* #Coordinarores
 
 - Omar Eduardo Benites Alfaro   (Coordinador e instructor del proyecto)
 + Pedro Pablo Gutierrez Vilchez (Coordinador e instructor del proyecto)
