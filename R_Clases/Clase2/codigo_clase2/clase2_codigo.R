@@ -6,7 +6,8 @@ library(gapminder)
 library(dplyr)
 library(tidyr)
 library(doBy)
-#library(scales)
+
+library(scales)
 
 # En esta segunda parte pondremos en practica numerosas tecnicas de manipulacion de datos mediante
 # el paquete dplyr
@@ -25,9 +26,11 @@ datos <- gapminder
 
 # Seleccionas las columnas datos, country, continent
 select(datos, country, continent, lifeExp)
+select(datos,  pop, gdpPercap)
 
 # Seleccionar todas las columnas excepto country
 select(datos, -country)
+
 
 # Seleccionar por indice/posicion de columnas/variables
 select(datos, 2:4,5)
@@ -66,7 +69,7 @@ filter(datos, country == 'Peru' & year == '1952')
 
 # [2da forma] Filtrar datos de la tabla relacionados al pais 'Peru' y el anho '1952'
 filter(datos, country == 'Peru', year == '1952')
-
+filter(datos, country =='Bolivia', year =='1997')
 
 # filter() con mas de dos valores de busqueda -----------------------------
 
@@ -93,14 +96,15 @@ res
 # [1era forma]
 res2 <- select(datos, country, continent, lifeExp)    
 res2 # 3 columnas fueron seleccionadas
-res2 <- filter(res, country == "Malawi")
-res2 #del resultados anterior, filtramos/buscamos por el pais de Malawi
+res3 <- filter(res2, country == "Malawi")
+res3 #del resultados anterior, filtramos/buscamos por el pais de Malawi
 
 # [2da forma] (Mas rapida)
 # Operador '%>%' pipe o tuberia. Presionar ctrl+shift+M para imprimirlo 
 res2 <- datos %>% 
-        select(country, continent, lifeExp) %>%
-        filter(country == 'Malawi')
+        select(country, continent, lifeExp, year) %>%
+        filter(country == 'Malawi') %>% 
+        filter(lifeExp > 38, lifeExp <45)
          
 
 # Problema 2: Seleccionar las columnas country, continent, lifeExp, ver los datos de Malawi, 
@@ -192,15 +196,15 @@ res4 <- mutate(datos, gpd_soles = gdpPercap*3.40)
 # Funcion 'summarise()': Resumenes de datos usando funciones estadisticas
 
 summarise(datos,
-          delay = mean(gdpPercap, na.rm = TRUE))
+          promedio = mean(gdpPercap, na.rm = TRUE))
 
 
 # Resumen por pais (country)
 by_country <- group_by(datos, country)
 resumen <- summarise(by_country,
                    count = n(),
-                   media    = mean(gdpPercap),
-                   est_desv = sd(gdpPercap)
+                   media    = mean(gdpPercap, na.rm = TRUE),
+                   est_desv = sd(gdpPercap, na.rm = TRUE)
                    ) 
 
 # Resumen por continente y anho (continent and year)
@@ -239,17 +243,18 @@ gdp2007 <- datos %>%
 # por cada intervalo
 
 # Histograma de conteo
-p <-  ggplot(data = gdp2007, aes(x = gdpPercap)) %>%
+p <-  ggplot(data = gdp2007, aes(x = gdpPercap)) +
       geom_histogram()
+p
 
 # Observacion: El mensaje `stat_bin()` using `bins = 30`. Pick better value with `binwidth`. nos indica
 # que cada intervalo es tomado la treintava parte (1/30) del rango de datos (50000)
 
 
 # Histograma de densidad
-p <-  ggplot(data = gdp2007, aes(x = gdpPercap)) +
+p2 <-  ggplot(data = gdp2007, aes(x = gdpPercap)) +
       geom_density()
-p
+p2
 
 # Histograma: Eje 'y' con notación normal o decimal
 # library(scales)
@@ -305,6 +310,8 @@ americas <- filter(datos, continent == "Americas")
 
 # Forma 1: Haciendo uso de 'face_wrap(~)' para dividir por pais
 # Para obtner el simbolo de ' ~ ' apretar 'CTRL+ 126'
+
+library(scales)
 
 b <- ggplot(data = americas, aes(x = year, y = pop)) + 
   geom_bar(stat = "identity") +

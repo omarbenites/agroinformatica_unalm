@@ -254,6 +254,12 @@ sd(tabla_papa$rendimiento)
 
 fp <- file.choose()
 datos_csv <- read.csv(fp) 
+<<<<<<< HEAD
+head(datos_csv)
+tail(datos_csv)
+#### 9.3 Importando Archivos Excel
+
+=======
 
 #### 9.3 Importando Archivos Excel
 
@@ -261,14 +267,23 @@ datos_csv <- read.csv(fp)
 
 
 
+>>>>>>> 9131055bf9c668ddc84c18858fb55650db45081a
 #install.packages(“readxl”)
 #library(readxl)
 
 ##file.choose: Busca y selecciona el nombre de archivo.
 #En nuestro caso, fp : Nombre del archivo excel
+<<<<<<< HEAD
+install.packages("readxl")
+
+library(readxl)
+
+fp <- file.choose() 
+=======
 fp <- file.choose() 
 
 
+>>>>>>> 9131055bf9c668ddc84c18858fb55650db45081a
 
 ## Obtenemos los sheet u hojas de trabajo del archivo Excel
 hojas <- excel_sheets(path = fp)
@@ -278,6 +293,11 @@ datos <- read_excel(path = fp, sheet = 1)
 
 ## Si sabemos el nombre de la hoja
 #datos <- read_excel(path = fp, sheet =  "Nombre de la Hoja")
+<<<<<<< HEAD
+datos <- read_excel(path = fp, sheet =  "gapminder")
+gapminder <- datos
+ 
+=======
 datos <- read_excel(path = fp, sheet =  "Sheet1")
 
 
@@ -287,3 +307,4 @@ datos <- read_excel(path = fp, sheet =  "Sheet1")
 #DM   : Storage root dry matter content
 #FYTHA: Foliage total yield 
 
+>>>>>>> 9131055bf9c668ddc84c18858fb55650db45081a

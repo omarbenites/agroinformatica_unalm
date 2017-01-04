@@ -10,13 +10,21 @@
 
 # Solución
 
+<<<<<<< HEAD
+# localidad <- c("Ancash", "Puno", "Tacna", "Apurimac", "Abancay")
+=======
 # localidad <- p("Ancash", "Puno", "Tacna", "Apurimac", "Abancay")
+>>>>>>> 9131055bf9c668ddc84c18858fb55650db45081a
 # anho <- 2015
 # quinua_prc <- c(1.333,	1.385,	1.104,	1.031,	1.026,	1.000)
 # tabla1 <- data.frame(anho, localidad, quinua_pc)
 # tabla2 <- data.frame(anho, localidad, quinua_pc, stringsAsFactors = FALSE)
 # Habrá diferencias entre tabla1 y tabla2? Su estructura es la misma?
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9131055bf9c668ddc84c18858fb55650db45081a
 #Ejercicio 2
 
 # Si tengo cuatro variedades de papa: tomasa, yungay, perricholi, amarilla; cada uno 
