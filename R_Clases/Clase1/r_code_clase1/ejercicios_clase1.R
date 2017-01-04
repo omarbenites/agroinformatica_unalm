@@ -17,7 +17,7 @@
 # tabla2 <- data.frame(anho, localidad, quinua_pc, stringsAsFactors = FALSE)
 # Habrá diferencias entre tabla1 y tabla2? Su estructura es la misma?
 
-
+#Ejercicio 2
 
 # Si tengo cuatro variedades de papa: tomasa, yungay, perricholi, amarilla; cada uno 
 # con un precio de 1.80, 2.00, 2.00, 3.20 respectivamente (Anho: 2016)
