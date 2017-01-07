@@ -77,6 +77,8 @@ dt_tranf(fp = fp, cultivo = "Arroz")
 dt_tranf(fp = fp, cultivo = "yuca")
 
 
+
+
 # Observacion:
 
 # En el caso de tener solamente 3 tablas, eliminar la primera.
