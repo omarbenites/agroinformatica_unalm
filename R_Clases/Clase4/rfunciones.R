@@ -1,7 +1,7 @@
 library(readxl)
 library(openxlsx)
 
-install.packages(c("readxl","openxlsx"))
+#install.packages(c("readxl","openxlsx"))
 
 # Buscamos el archivo y capturamos la direccion
 fp <- file.choose()
@@ -72,9 +72,10 @@ shell.exec(file = file)
 
 }
 
-dt_tranf(fp = fp, cultivo = "Tomate")
-dt_tranf(fp = fp, cultivo = "Arroz")
-dt_tranf(fp = fp, cultivo = "yuca")
+fp <- file.choose()
+cultivo <- "tomate_2005"
+
+dt_tranf(fp = fp, cultivo = cultivo)
 
 
 
