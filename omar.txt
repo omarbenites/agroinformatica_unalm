@@ -1,0 +1,188 @@
+[33mcommit 7e7be901b9d8cc5782523fd3d427bc9d5606a293[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sun Jan 29 14:26:24 2017 -0500
+
+    carpeta de trigo anadida
+
+[33mcommit 39b2cd5f33b8d27cddd75717b748fbb062bc52a4[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sat Jan 28 16:26:48 2017 -0500
+
+    #cropdatape script
+
+[33mcommit 6959279450469d360e96bf24f48f4f0ad8204318[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sat Jan 28 16:01:13 2017 -0500
+
+    #carpetas de codigo por estudiants
+
+[33mcommit 3b444965590686232a1e77c4b9d3a4b5dea2257e[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sat Jan 28 15:56:37 2017 -0500
+
+    #carpetas por alumno
+
+[33mcommit 9f5d99a76d4b98d4eb2b73220cf59e18e42f412b[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sat Jan 28 09:09:48 2017 -0500
+
+    #update bucle for
+
+[33mcommit c7d306e628d637244fb2ffa9c7e77fda21df058f[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Thu Jan 26 20:44:58 2017 -0500
+
+    #archivos del coordinador
+
+[33mcommit dac1f3eb1af49746be08e3d64d6689ca862a3ab3[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Thu Jan 26 20:38:44 2017 -0500
+
+    bunch of files has been deleted
+
+[33mcommit f6e71722be298503f243c9afb7c22287d7f463e5[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Thu Jan 26 20:29:49 2017 -0500
+
+    #carpetas por estudiantes y coordinadores #carpetas por cultivos
+
+[33mcommit 40f5f7be55c5867b5f0332f2ca0f28f8c8a43fd5[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Sat Jan 7 13:21:12 2017 -0500
+
+    #creacion de funciones clase 4
+
+[33mcommit c471fcc9e768164e5b20c4a27d3753440c598c35[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Thu Jan 5 19:55:58 2017 -0500
+
+    #update in rfunciones
+
+[33mcommit 8edae7c3e80f32efd7e74fe7f85508c73cbef65b[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Wed Jan 4 13:40:54 2017 -0500
+
+    #update clase 4
+
+[33mcommit f135ca30337ec7291200bf5dffa206b9c8ea43ae[m
+Author: omarbenites <omarbenites@github.com>
+Date:   Wed Jan 4 09:43:12 2017 -0500
+
+    #update3
+
+[33mcommit 9350d48ee6c11ac257accbf5b3e5f0a33b06e219[m
+Author: omarbenites <omar_cs_7@hotmail.com>
+Date:   Wed Jan 4 08:15:31 2017 -0500
+
+    #update2
+
+[33mcommit d0fe44b7a1d6bea378598e19f9020bf1df3de88a[m
+Merge: 35b6164 9131055
+Author: omarbenites <omar_cs_7@hotmail.com>
+Date:   Wed Jan 4 08:01:59 2017 -0500
+
+    Merge branch 'master' of https://github.com/omarbenites/agroinformatica_unalm
+
+[33mcommit 35b616437f5f806a1272bb9de6a82bf69831fe88[m
+Author: omarbenites <omar_cs_7@hotmail.com>
+Date:   Wed Jan 4 08:01:03 2017 -0500
+
+    #update
+
+[33mcommit 9131055bf9c668ddc84c18858fb55650db45081a[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Sun Dec 4 22:13:45 2016 -0500
+
+    Update ejercicios_clase1.R
+
+[33mcommit 185e15f6e2a4e6f703a96aeb82257e5583dbf069[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 09:03:28 2016 -0500
+
+    Update README.md
+
+[33mcommit 6e83c931d208d1da028b7f57db4bb5ec3952c250[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:54:49 2016 -0500
+
+    Update README.md
+
+[33mcommit 94d5b8523bc5673399f7572d966bda1bcae8cfba[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:54:07 2016 -0500
+
+    Update README.md
+
+[33mcommit 27c83f7fa1ea14d4250b91e23d69365d1a8db5ba[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:53:26 2016 -0500
+
+    Update README.md
+
+[33mcommit ad1fa319ebbefbc66ce5b8eca2caa0bb581310c2[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:52:59 2016 -0500
+
+    Update README.md
+
+[33mcommit ac9ebeb3633cbc232a54414c55483affdf52bc73[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:50:02 2016 -0500
+
+    c1
+    
+    c1
+
+[33mcommit 7c1f6f85a760eb59af6b48e6970749ca1c4673a2[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:49:06 2016 -0500
+
+    Update README.md
+
+[33mcommit 2e5fb5154b993d445d6c7cc8653bf40d5dca3127[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:43:40 2016 -0500
+
+    Update README.md
+
+[33mcommit a2fd0f3ec989f9e50b03595d1db054faacde129b[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:42:04 2016 -0500
+
+    Update README.md
+
+[33mcommit 89c119e7503715910ecad678dfb6b78756dd4d8c[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:38:06 2016 -0500
+
+    Update README.md
+
+[33mcommit 22e61003c50433db6e2cf97d1e3da446292cd993[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:37:37 2016 -0500
+
+    Update README.md
+
+[33mcommit 3c999aa25e7754aab9516edd9dce8f6818f5ce0d[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:36:44 2016 -0500
+
+    Update README.md
+
+[33mcommit 30b718ff8950331495686dd555c943a205d57ae1[m
+Author: omarbenites <omar_cs_7@hotmail.com>
+Date:   Thu Dec 1 08:25:48 2016 -0500
+
+    #first commit
+
+[33mcommit 5727117db679566fec2573da9250e3889a0e8a48[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Wed Nov 30 13:21:27 2016 -0500
+
+    Create README.md
+
+[33mcommit ae41bc4c40d51916388255c1f1c65bab2fd8408e[m
+Author: Omar Benites Alfaro <omar_cs_7@hotmail.com>
+Date:   Wed Nov 30 13:21:20 2016 -0500
+
+    Initial commit
