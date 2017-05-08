@@ -1,7 +1,6 @@
 # agroinformatica_unalm
 
-
-[![imagen_proyecto1.png](https://s4.postimg.org/rncpf7gel/imagen_proyecto1.png)](https://postimg.org/image/dtocq5nt5/)
+[![portada_curso.png](https://s12.postimg.org/u7ddzql7x/portada_curso.png)](https://postimg.org/image/b2a4pz6jt/)
 
 #### Coordinarores del proyecto	
 
